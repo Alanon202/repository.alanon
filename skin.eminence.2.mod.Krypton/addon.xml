@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+    id="skin.eminence.2.mod.Krypton"
+    version="2.2.3"
+    name="Eminence 2.0 MOD"
+    provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
+    <requires>
+        <import addon="xbmc.gui" version="5.12.0"/>
+        <import addon="script.skinshortcuts" version="1.0.15"/>
+        <import addon="script.skin.helper.service" version="1.1.1"/>
+		<import addon="script.skin.helper.widgets" version="1.0.17"/>
+		<import addon="script.skin.helper.colorpicker" version="1.0.11"/>
+        <import addon="script.extendedinfo" version="5.0.0"/>
+        <import addon="script.image.resource.select" version="0.0.5"/>
+        <import addon="plugin.program.autocompletion" version="1.0.1"/>
+    </requires>
+    <extension point="xbmc.gui.skin" effectslowdown="1.00" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Clean, clear, simple, modern.</summary>
+        <summary lang="fr">Clair, simple et moderne.</summary>
+        <description lang="en">Eminence is a skin that aims to be clean, clear, simple and modern.</description>
+        <description lang="fr">Eminence est un thème qui vise à être clair, simple et moderne.</description>
+		<assets>
+		 	<icon>icon.png</icon>
+ 			<fanart>fanart.jpg</fanart>
+		</assets>	
+		<news> Changelog:
+		
+		[B]2.2.3[/B]
+		1. Tweaks for the light colourscheme.
+		2. Version bump for the github experiment.
+
+		[B]2.2.2[/B]
+		1. Added an opacity setting for the OSD.
+				
+		[B]2.2.1[/B]
+		1. Added a clickable seekbar.
+		2. Added new colour themes.
+		3. Shortened the skin name.
+		4. Added new icons.
+		5. Tweaked the subtitles menu.
+		6. Small fixes.
+
+		[B]2.2[/B]
+		1. Added a custom dialog for the view selector.
+		2. Added new selector thumbnails.
+		3. Added "Plain List" view.
+		4. Added "Lovefilm" view.
+		5. Added "Info List 3" view.
+		6. Added "Medium Icons" view.
+		7. Added an improved NextUp PostPlay skin.
+		8. Added "disc.png" artwork for Music OSD.
+		9. Added more flags settings.
+		10. Added Director/Revenue info for the movie library.
+		11. Added Forced Views for most content types.
+		12. Fixed hub logos.
+		13. Fixed movieset overlay info.
+		14. Fixed subtitle dialog behaviour.
+		15. Fixed some minor dialogs.
+		16. General speed improvements. 
+		17. Improved Showcase posters.
+		18. Improved video thumbs.
+		19. Improved Header colours.
+		20. Improved hub back actions.
+		21. Improved the Line Labels.
+		
+		[B]2.1[/B]
+		1. Added manfeed's lyrics.
+		2. Fixes for Hub widgets.
+		3. Fixes for weather.
+		4. Added music genre and record label resources.
+		5. Added record label icons in dialog infos.
+		6. Refined view types and categories.
+		7. Added the old Hub menu as an option.
+		8. Improved QuickNav and submenu handling.
+		9. Functional Genre widget.
+		
+		[B]2.0.9[/B]
+		1. Some stubborn bugs squashed.
+		
+		[B]2.0.8[/B]
+		1. Fixed dialog buttons.
+		2. Fixed playlist dialog.
+		3. Added some new animations.
+		4. Mouse supported submenu.
+		
+		[B]2.0.7[/B]
+		1. Small fixes.
+		
+		[B]2.0.6[/B]
+		1. Added a fake disc with writing in Music OSD.
+		2. Repaired the repeat button.
+		3. Removed duplicate spinner textures. 
+		4. Added more dependencies.
+		5. Settings window shortcuts for OpenELEC, LibreELEC, and OSMC.
+		6. Added a record button to the PVR OSD.
+		7. Added Kodi's Privacy Policy display.
+		8. Code updates.
+		
+		[B]2.0.5[/B]
+		1. Tweaked the cast list.
+		2. Added and improved skin dependencies.
+		
+		[B]2.0.4[/B]
+		1. Color Picker fix.
+		
+		[B]2.0.3[/B]	
+		1. Power menu fix.
+		2. ColorPicker fixes.
+		3. Moved the busy spinner.
+		4. Moved the user ratings under the clock.
+		
+		[B]2.0.2[/B]
+		1. Revert header change.
+		2. New cast info in the OSD.
+		3. More code updates.
+		
+		[B]2.0.1[/B]
+		1. Quick bugfix.		
+		
+		[B]2.0[/B]
+		1. Added a Quick navigation shortcuts menu.
+		2. Further code updates from Eminence 2.5.
+		3. Fix for Library selection buttons.
+		4. A fix for true hidden headers.
+		5. PVR visual fixes.
+		6. Overhaul of the available views.
+		7. Further mouse control improvements.
+		
+		[B]1.9.2[/B]
+		1. Small updates for the backgrounds.
+		2. Changed position for the user rating.
+		
+		[B]1.9.1[/B]		
+		1. Flags and other modifications for Hubs.
+		2. Updated skin support for Extended Info dialogs.
+		
+		[B]1.9[/B]
+		1. Added a new Netflix view for video items (Arctic - Danvers).
+		2. New spinner textures (from Arctic - Danvers).
+		3. Added the user rating system for music and videos.
+		4. Overhauled and fixed the info screens.
+		5. Ported the new dialog design from Eminence 2.5.
+		6. Ported the Settings screen from Eminence 2.5.
+		7. More mouse optimizations for the setting menus.
+		8. Added an option to use music artwork backgrounds.
+		9. Ported the window shadows from Eminence 2.5.
+		10. Fixed a weather widget bug.
+		
+		[B]1.8.3[/B]
+		1. Updated the setting labels for Krypton, and improved mouse support.
+		
+		[B]1.8.2[/B]
+		1. More code updates and fixes.
+		2. Added new info for addons.
+		
+		[B]1.8.1[/B]
+		1. New skin icon.
+		2. Begun updating the code to reflect soon-to-be deprecated string bools.
+		3. A bunch of small fixes to the code.
+		4. Some new flags.
+		
+		[B]1.8[/B]
+		1. Improvements and fixes for the Video OSD.
+		2. Moved my portion of the changelog to the addon.xml.
+		3. Restored the addoninfo changelog button for the "news" value.
+		4. Added a setting for duration formats. "script.duration_axbmcuser" now required.
+		5. Updated required addons list.
+		6. Small fixes for the Showcase view.
+
+		[B]1.7[/B]
+		1. Improved vertical and horizontal scrolling.
+		2. Added letter scrollbar (by marcelvedt and the Aeon Madnox team!).
+		3. Added Player.Process dialog for Krypton.
+		4. Adapted the game controlers file from Eminence 2.5 (needs to be tested).
+		5. Fixed some small glitches.
+
+		[B]1.6[/B]
+		1. Added animated artwork!
+		2. Cleaned up inconsistent code.
+		3. Added proper settings and labels for various new features.
+
+		[B]1.5.1[/B]
+		1. Better flags icons and other small fixes.
+
+		[B]1.5[/B]
+		1. Added support for rotating ExtraFanart with Skin Helper!
+		2. Fixed the Krypton settings screen.
+		3. Added RottenTomatoes, Metacritic and IMDb ratings to the VideoInfo screen.
+		4. Updated the Dialogs and added the "Get more..." and "Cancel" buttons.
+		5. Added the Showcase view from Eminence 2.5!
+		6. Redesigned the way Video OSD works.
+		7. Fixed most of the Skin Helper properties.
+		8. Altered flag aspect ratio.
+		9. Fixed and improved the movieset display.
+		10. Redesigned the large submenu.
+		11. Tweaked the timestamp bubble.
+		12. Removed the changelog button from the addon info screen.
+		13. Darkened the interface dffuse graphic.
+		14. Repaired the subitle offset slider.
+		15. Modded the way source flags are displayed while playing.
+		16. Changed the OSD info button function.
+		</news>
+	</extension>
+</addon>

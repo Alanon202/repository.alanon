@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <backgroundcolor>Background</backgroundcolor>
+    <defaultcontrol>9000</defaultcontrol>
+	<onload>ClearProperty(quicknavsetup,home)</onload>
+	<onunload>ClearProperty(quicknavsetup,home)</onunload>	
+    <controls>
+        <!-- Background -->
+        <include>Furniture_Background</include>
+        <include>Furniture_TopBar</include>
+        <include>Furniture_RSS</include>
+		<include>QuickNav</include>
+
+        <!-- Settings -->
+        <control type="group">
+            <left>pad</left>
+			<right>0</right>
+			<top>top</top>
+			<control type="group">
+				<left>pad</left>
+				<top>10</top>
+				<include content="Object_Line">
+					<param name="width" value="1880" />
+					<param name="label" value="$LOCALIZE[5]" />
+				</include>
+			</control>	
+            <include>Animation_FadeSlide_Right</include>
+            <control type="panel" id="9000">
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <height>730</height>
+                <orientation>vertical</orientation>
+                <itemlayout height="360" width="380">
+                    <control type="group">
+                        <top>pad</top>
+                        <bottom>pad</bottom>
+                        <left>pad</left>
+                        <right>pad</right>		
+						<include>Object_Background</include>
+                    </control>
+                    <control type="image">
+                        <top>60</top>
+                        <left>side</left>
+                        <right>20</right>
+                        <height>148</height>
+                        <aspectratio>keep</aspectratio>
+                        <texture colordiffuse="ListLabel">$INFO[ListItem.Icon]</texture>
+                    </control>
+                    <control type="label">
+                        <left>45</left>
+                        <right>50</right>
+                        <height>50</height>
+                        <bottom>50</bottom>
+                        <textcolor>ListLabel</textcolor>
+                        <align>center</align>
+                        <aligny>center</aligny>
+                        <label>$INFO[ListItem.Label]</label>
+                    </control>
+                </itemlayout>
+                <focusedlayout height="360" width="380">
+                    <control type="group">
+                        <top>pad</top>
+                        <bottom>pad</bottom>
+                        <left>pad</left>
+                        <right>pad</right>
+                        <control type="image">
+                            <texture colordiffuse="$VAR[HighlightColor]">common/white.png</texture>
+                        </control>
+                    </control>
+                    <control type="image">
+                        <top>60</top>
+                        <left>side</left>
+                        <right>20</right>
+                        <height>148</height>
+                        <aspectratio>keep</aspectratio>
+                        <texture colordiffuse="Selected">$INFO[ListItem.Icon]</texture>
+                    </control>
+                    <control type="label">
+                        <left>45</left>
+                        <right>50</right>
+                        <height>50</height>
+                        <bottom>50</bottom>
+                        <textcolor>Selected</textcolor>
+                        <align>center</align>
+                        <aligny>center</aligny>
+                        <label>$INFO[ListItem.Label]</label>
+                    </control>
+                </focusedlayout>
+                <content>
+                    <!-- Row 1 -->
+                    <item id="1">
+                        <description>Interface</description>
+                        <label>14206</label>
+                        <onclick>activatewindow(InterfaceSettings)</onclick>
+                        <icon>special://skin/extras/icons/skinsettings.png</icon>
+                    </item>
+                    <item id="5">
+                        <description>Library</description>
+                        <label>14202</label>
+                        <onclick>activatewindow(MediaSettings)</onclick>
+                        <icon>special://skin/extras/icons/tags.png</icon>
+                    </item>
+                    <item id="6">
+                        <description>Player</description>
+                        <label>14200</label>
+                        <onclick>activatewindow(PlayerSettings)</onclick>
+                        <icon>special://skin/extras/icons/equalizer.png</icon>
+                    </item>
+                    <item id="9">
+                        <description>System</description>
+                        <label>13000</label>
+                        <onclick>activatewindow(SystemSettings)</onclick>
+                        <icon>special://skin/extras/icons/configure.png</icon>
+                    </item>
+                    <item id="2">
+                        <description>Skin Settings</description>
+                        <label>20077</label>
+                        <onclick>activatewindow(skinsettings)</onclick>
+                        <!-- <onclick>RunScript(script.skinshortcuts,type=manage&amp;group=mainmenu)</onclick> -->
+                        <icon>special://skin/extras/icons/paintbrush.png</icon>
+                    </item>
+
+                    <!-- Row 2 -->
+
+                    <item id="10">
+                        <description>Addons</description>
+                        <label>24001</label>
+                        <onclick>activatewindow(AddonBrowser)</onclick>
+                        <icon>special://skin/extras/icons/addons.png</icon>
+                    </item>
+                    <item id="3">
+                        <description>Profiles</description>
+                        <label>13200</label>
+                        <onclick>activatewindow(Profiles)</onclick>
+                        <icon>special://skin/extras/icons/actor.png</icon>
+                    </item>
+                    <item id="8">
+                        <description>PVR Settings</description>
+                        <label>19191</label>
+                        <onclick>activatewindow(pvrsettings)</onclick>
+                        <icon>special://skin/extras/icons/livetv.png</icon>
+                    </item>
+                    <item id="12">
+                        <description>Services</description>
+                        <label>14036</label>
+                        <onclick>activatewindow(servicesettings)</onclick>
+                        <icon>special://skin/extras/icons/network.png</icon>
+                    </item>
+                    <item id="11">
+                        <description>System Info</description>
+                        <label>130</label>
+                        <onclick>activatewindow(7)</onclick>
+                        <icon>special://skin/extras/icons/sysinfo.png</icon>
+                    </item>
+					<item id="12">
+						<description>Launch OSMC settings</description>
+						<label>$LOCALIZE[31800]</label>
+						<onclick>RunScript(service.osmc.settings)</onclick>
+						<visible>System.HasAddon(service.osmc.settings)</visible>
+						<icon>special://skin/extras/icons/osmc.png</icon>
+					</item>          
+					<item id="13">
+						<description>Launch OpenELEC settings</description>
+						<label>$LOCALIZE[31801]</label>
+						<onclick>RunScript(service.openelec.settings)</onclick>
+						<visible>System.HasAddon(service.openelec.settings)</visible>
+						<icon>special://skin/extras/icons/openelec.png</icon>
+					</item>
+					<item id="14">
+						<description>Launch LibreELEC settings</description>
+						<label>$LOCALIZE[31802]</label>
+						<onclick>RunScript(service.libreelec.settings)</onclick>
+						<visible>System.HasAddon(service.libreelec.settings)</visible>
+						<icon>special://skin/extras/icons/libreelec.png</icon>
+					</item>
+                </content>
+            </control>
+        </control>
+    </controls>
+
+</window>
