@@ -17,10 +17,6 @@
  			   <icon>resources/icon.png</icon>
  			   <fanart>resources/fanart.jpg</fanart>
  		    </assets>		
-			<news>
-			1.0.0 Initial release.
-			1.0.1 Improved Git folder structure.
-			
-			</news>			
-    </extension>
-</addon>
+			<news>1.0.0 Initial release.; 1.0.1 Improved Git folder structure.</news>			
+		</extension>
+	</addon>
