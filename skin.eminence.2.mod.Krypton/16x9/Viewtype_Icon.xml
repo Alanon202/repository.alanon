@@ -38,7 +38,7 @@
                 <onright>$PARAM[id]</onright>
                 <ondown>60</ondown>
                 <onup condition="!Skin.HasSetting(KioskMode)">9000</onup>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+				<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                 <pagecontrol>60</pagecontrol>
                 <focusposition>2</focusposition>
                 <movement>2</movement>
@@ -641,7 +641,7 @@
                     <onup condition="!$PARAM[updownid]">$PARAM[onup]</onup>
                     <ondown condition="!$PARAM[updownid]">$PARAM[ondown]</ondown>
                     <onright condition="!Skin.HasSetting(KioskMode)">9000</onright>
-					<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+					<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                     <onleft condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onleft>
                     <pagecontrol>60</pagecontrol>
                     <preloaditems>2</preloaditems>
@@ -908,7 +908,7 @@
                 <onup>$PARAM[id]</onup>
                 <ondown>$PARAM[id]</ondown>
                 <onright condition="!Skin.HasSetting(KioskMode)">9000</onright>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+				<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                 <onleft condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onleft>
                 <pagecontrol>60</pagecontrol>
                 <preloaditems>2</preloaditems>
@@ -1015,7 +1015,7 @@
                 <posx>-190</posx>
                 <width>2300</width>
                 <onup condition="!Skin.HasSetting(global.kioskmode)">9000</onup>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+				<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                 <ondown condition="!Skin.HasSetting(showscrollbars) + Skin.HasSetting(AlphabetScrollbar)">6015</ondown>
 				<ondown condition="Skin.HasSetting(showscrollbars)">60</ondown>
                 <onleft>504</onleft>
@@ -1220,7 +1220,7 @@
                 <posx>-190</posx>
                 <width>2300</width>
                 <onup condition="!Skin.HasSetting(global.kioskmode)">9000</onup>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+				<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                 <ondown>60</ondown>
                 <onleft>504</onleft>
                 <onright>504</onright>
@@ -1393,7 +1393,7 @@
                     <onup condition="!$PARAM[updownid]">$PARAM[onup]</onup>
                     <ondown condition="!$PARAM[updownid]">$PARAM[ondown]</ondown>
                     <onright condition="!Skin.HasSetting(KioskMode)">9000</onright>
-					<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+					<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                     <onleft condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onleft>
                     <pagecontrol>60</pagecontrol>
                     <preloaditems>2</preloaditems>
@@ -1716,7 +1716,7 @@
                     <onup condition="!$PARAM[updownid]">$PARAM[onup]</onup>
                     <ondown condition="!$PARAM[updownid]">$PARAM[ondown]</ondown>
                     <onright condition="!Skin.HasSetting(KioskMode)">9000</onright>
-					<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+					<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                     <onleft>Control.HasFocus(60)</onleft>
                     <pagecontrol>60</pagecontrol>
                     <preloaditems>2</preloaditems>

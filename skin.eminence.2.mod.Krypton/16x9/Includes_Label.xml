@@ -498,7 +498,9 @@
 <!--Duration flags-->
 		 <value condition="Control.HasFocus(9973)">$LOCALIZE[31809]</value>
 <!--Video OSD Colours-->
-		 <value condition="Control.HasFocus(9972)">$LOCALIZE[31209]</value>	 
+		 <value condition="Control.HasFocus(9972)">$LOCALIZE[31209]</value>
+<!--OnBack Command-->
+		 <value condition="Control.HasFocus(9971)">$LOCALIZE[31217]</value>			 
     </variable>
 
 	<variable name="Label_PlayerStatus">

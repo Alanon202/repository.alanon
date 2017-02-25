@@ -806,6 +806,14 @@ msgctxt "#31215"
 msgid "60%"
 msgstr ""
 
+msgctxt "#31216"
+msgid "Enable command on back"
+msgstr ""
+
+msgctxt "#31217"
+msgid "Enables returning directly to the point of origin when shortcuts are used."
+msgstr ""
+
 msgctxt "#31500"
 msgid "None"
 msgstr ""

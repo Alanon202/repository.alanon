@@ -506,8 +506,7 @@
                         <include>Defs_OptionButton</include>
                         <visible>ControlGroup(8000).HasFocus(8002)</visible>
                     </control>                                        
-                    
-<!--Ajout Control -->                    
+
                     <!-- Background Color -->
                     <control type="button" id="8210">
                         <width>100%</width>
@@ -517,8 +516,7 @@
                         <include>Defs_OptionButton</include>
                         <visible>ControlGroup(8000).HasFocus(8002)</visible>
                     </control>
-
-<!--Ajout Control -->                    
+                  
                     <!-- Reset Colors -->
                     <control type="button" id="8211">
                         <width>100%</width>
@@ -744,7 +742,7 @@
                         <visible>ControlGroup(8000).HasFocus(8007)</visible>
                     </control>
                     
-<!--  Ajout Header Style -->
+					<!--  Ajout Header Style -->
                     <control type="button" id="8710">
                         <width>100%</width>
                         <label>31506</label>
@@ -882,7 +880,7 @@
                         <onclick>Skin.ToggleSetting(helperduration)</onclick>
                         <include>Defs_OptionButton</include>
                         <visible>ControlGroup(8000).HasFocus(8097)</visible>
-                    </control>
+                    </control>					
                     <!-- Hub Flags -->
                     <control type="radiobutton" id="9015">
                         <radioposx>1350</radioposx>
@@ -1202,6 +1200,15 @@
                         <include>Defs_OptionButton</include>
                         <visible>ControlGroup(8000).HasFocus(8009)</visible>
                     </control>
+                    <control type="radiobutton" id="9971">
+                        <radioposx>1350</radioposx>
+                        <width>100%</width>
+                        <label>31216</label>
+                        <selected>Skin.HasSetting(backoption)</selected>
+                        <onclick>Skin.ToggleSetting(backoption)</onclick>
+                        <include>Defs_OptionButton</include>
+                        <visible>ControlGroup(8000).HasFocus(8009)</visible>
+                    </control>					
                     <!-- Customise Shutdown Menu -->
                     <control type="button" id="8907">
                         <width>100%</width>

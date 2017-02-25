@@ -35,7 +35,7 @@
                 <width>1722</width>
 				<visible>String.IsEqual(Window(Home).Property(SkinHelper.ForcedView),525) | String.IsEmpty(Window(Home).Property(SkinHelper.ForcedView))</visible>
                 <onup condition="!Skin.HasSetting(global.kioskmode)">9000</onup>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+				<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                 <ondown>61</ondown>
                 <onleft>525</onleft>
                 <onright>525</onright>
@@ -180,7 +180,7 @@
                         <orientation>horizontal</orientation>
 						<ondown>61</ondown>
                         <onup condition="!Skin.HasSetting(KioskMode)">9000</onup>
-						<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+						<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                         <scrolltime tween="quadratic">400</scrolltime>
                         <itemlayout width="1280" height="720">
                             <control type="image">

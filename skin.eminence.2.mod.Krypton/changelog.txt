@@ -1,3 +1,11 @@
+[B]2.2.4[/B]
+1. Added setting for onback command.
+2. Small language fix.
+
+[B]2.2.3[/B]
+1. Tweaks for the light colourscheme.
+2. Version bump for the github experiment.
+
 [B]2.2.2[/B]
 1. Added an opacity setting for the OSD.
 

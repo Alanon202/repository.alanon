@@ -24,7 +24,7 @@
 
 <addon
     id="skin.eminence.2.mod.Krypton"
-    version="2.2.3"
+    version="2.2.4"
     name="Eminence 2.0 MOD"
     provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
     <requires>
@@ -51,6 +51,10 @@
  			<fanart>fanart.jpg</fanart>
 		</assets>
 		<news> Changelog:
+
+		[B]2.2.4[/B]
+		1. Added setting for onback command.
+		2. Small language fix.
 
 		[B]2.2.3[/B]
 		1. Tweaks for the light colourscheme.

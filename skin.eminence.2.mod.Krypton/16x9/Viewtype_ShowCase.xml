@@ -352,7 +352,7 @@
 						<width>1879</width>
 						<height>525</height>
 						<onup condition="!Skin.HasSetting(global.kioskmode)">9000</onup>
-						<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+						<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
 						<ondown condition="Skin.HasSetting(showscrollbars)">61</ondown>
 						<ondown condition="!Skin.HasSetting(showscrollbars) + Skin.HasSetting(AlphabetScrollbar)">6015</ondown>
 						<onleft>535</onleft>

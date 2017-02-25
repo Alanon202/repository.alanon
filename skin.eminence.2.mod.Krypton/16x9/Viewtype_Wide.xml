@@ -34,8 +34,7 @@
                 <onup>$PARAM[id]</onup>
                 <ondown>$PARAM[id]</ondown>
                 <onright condition="!Skin.HasSetting(KioskMode)">9000</onright>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+				<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                 <onleft condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onleft>
                 <pagecontrol>60</pagecontrol>
                 <preloaditems>2</preloaditems>
@@ -160,7 +159,7 @@
                 <onup>$PARAM[id]</onup>
                 <ondown>$PARAM[id]</ondown>
                 <onright condition="!Skin.HasSetting(KioskMode)">9000</onright>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+				<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                 <onleft condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onleft>
                 <pagecontrol>60</pagecontrol>
                 <preloaditems>2</preloaditems>
@@ -658,7 +657,7 @@
                 <ondown condition="Skin.HasSetting(showscrollbars)">60</ondown>
 				<ondown condition="!Skin.HasSetting(showscrollbars) + Skin.HasSetting(AlphabetScrollbar)">6015</ondown>
                 <onup condition="!Skin.HasSetting(KioskMode)">9000</onup>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+				<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                 <pagecontrol>60</pagecontrol>
                 <focusposition>1</focusposition>
                 <preloaditems>2</preloaditems>
@@ -957,7 +956,7 @@
                 <ondown condition="!Skin.HasSetting(showscrollbars) + Skin.HasSetting(AlphabetScrollbar)">6015</ondown>
 				<ondown condition="Skin.HasSetting(showscrollbars)">60</ondown>
                 <onup condition="!Skin.HasSetting(KioskMode)">9000</onup>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+				<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                 <pagecontrol>60</pagecontrol>
                 <focusposition>5</focusposition>
                 <preloaditems>2</preloaditems>
@@ -1054,7 +1053,7 @@
 				<ondown condition="!Skin.HasSetting(showscrollbars) + Skin.HasSetting(AlphabetScrollbar)">6015</ondown>
                 <ondown condition="Skin.HasSetting(showscrollbars)">60</ondown>
                 <onup condition="!Skin.HasSetting(KioskMode)">9000</onup>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+				<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                 <pagecontrol>60</pagecontrol>
                 <focusposition>5</focusposition>
                 <preloaditems>2</preloaditems>
@@ -1317,7 +1316,7 @@
                 <onright>$PARAM[id]</onright>
                 <ondown condition="Skin.HasSetting(showscrollbars)">6015</ondown>
                 <onup condition="!Skin.HasSetting(KioskMode)">9000</onup>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+				<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                 <pagecontrol>60</pagecontrol>
                 <preloaditems>0</preloaditems>
                 <orientation>horizontal</orientation>
@@ -1425,7 +1424,7 @@
 				<ondown condition="!Skin.HasSetting(showscrollbars) + Skin.HasSetting(AlphabetScrollbar)">6015</ondown>
                 <ondown condition="Skin.HasSetting(showscrollbars)">60</ondown>
                 <onup condition="!Skin.HasSetting(KioskMode)">9000</onup>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+				<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                 <pagecontrol>60</pagecontrol>
                 <focusposition>2</focusposition>
                 <preloaditems>2</preloaditems>
@@ -1692,7 +1691,7 @@
 				<ondown condition="!Skin.HasSetting(showscrollbars) + Skin.HasSetting(AlphabetScrollbar)">6015</ondown>
                 <ondown condition="Skin.HasSetting(showscrollbars)">60</ondown>
                 <onup condition="!Skin.HasSetting(KioskMode)">9000</onup>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+				<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                 <pagecontrol>60</pagecontrol>
                 <focusposition>3</focusposition>
                 <preloaditems>2</preloaditems>
@@ -2115,7 +2114,7 @@
 				<ondown condition="Skin.HasSetting(showscrollbars)">60</ondown>
 				<ondown condition="!Skin.HasSetting(showscrollbars) + Skin.HasSetting(AlphabetScrollbar)">6015</ondown>
                 <onup condition="!Skin.HasSetting(KioskMode)">9000</onup>
-				<onback condition="!String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
+				<onback condition="Skin.HasSetting(backoption) + !String.IsEqual(Window(home).Property(HubReturn),Home)">ActivateWindow($INFO[Window(home).Property(HubReturn)])</onback>
                 <pagecontrol>60</pagecontrol>
                 <focusposition>3</focusposition>
                 <preloaditems>2</preloaditems>
