@@ -1,3 +1,9 @@
+[B]2.2.5[/B]
+1. Better mouse support for the skin settings.
+2. Subtitle menu fixes.
+3. Improved english language strings.
+4. Several small PVR fixes and tweaks.
+
 [B]2.2.4[/B]
 1. Added setting for onback command.
 2. Small language fix.
