@@ -26,7 +26,7 @@
 
 <addon
     id="skin.eminence.2.mod.Krypton"
-    version="2.2.5"
+    version="2.2.6"
     name="Eminence 2.0 MOD"
     provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
     <requires>
@@ -53,6 +53,11 @@
  			<fanart>fanart.jpg</fanart>
 		</assets>
 		<news> Changelog:
+
+		[B]2.2.6[/B]
+		1. QuickNav fixes.
+		2. More PVR fixes.
+		3. Other small fixes.
 
 		[B]2.2.5[/B]
 		1. Better mouse support for the skin settings.

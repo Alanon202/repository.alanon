@@ -1,3 +1,8 @@
+[B]2.2.6[/B]
+1. QuickNav fixes.
+2. More PVR fixes.
+3. Other small fixes.
+
 [B]2.2.5[/B]
 1. Better mouse support for the skin settings.
 2. Subtitle menu fixes.
