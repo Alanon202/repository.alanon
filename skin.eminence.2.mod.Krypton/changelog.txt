@@ -1,3 +1,9 @@
+[B]2.2.7[/B]
+1. Added a new context menu (testing!).
+2. Added a rotating backgrounds timer.
+3. Added extrathumbs support.
+4. Addon settings button fixes.
+
 [B]2.2.6[/B]
 1. QuickNav fixes.
 2. More PVR fixes.

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
     id="skin.eminence.2.mod.Krypton"
-    version="2.2.6"
+    version="2.2.7"
     name="Eminence 2.0 MOD"
     provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
     <requires>
@@ -28,6 +28,12 @@
  			<fanart>fanart.jpg</fanart>
 		</assets>	
 		<news> Changelog:
+		
+		[B]2.2.7[/B]
+		1. Added a new context menu (testing!).
+		2. Added a rotating backgrounds timer.
+		3. Added extrathumbs support.
+		4. Addon settings button fixes.
 		
 		[B]2.2.6[/B]
 		1. QuickNav fixes.
