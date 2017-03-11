@@ -1,3 +1,18 @@
+[B]2.3[/B]
+1. Improved extrathumbs handling.
+2. Improved the new context menu.
+3. Improved rating icons.
+4. Improved userratings.
+5. Added an info menu in the PVR OSD.
+6. Added screenshots for the addon.xml.
+7. Default highlight is back to blue.
+8. Dependencies version bump.
+9. Updated manfeed's lyrics to V2.
+10. Show/Hide CD case option.
+11. Artist logo improvements.
+12. Music OSD bugfix.
+13. Adjusted the skin background colour effects.
+
 [B]2.2.7[/B]
 1. Added a new context menu (testing!).
 2. Added a rotating backgrounds timer.
