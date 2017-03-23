@@ -1,3 +1,10 @@
+[B]2.3.3[/B]
+1. Updated a required add-on listing.
+2. Added a preliminary RightList view.
+3. Decreased the Home gradient.
+4. Fixes for the French translation.
+5. Disabled Black and Sollid colour themes (for now).
+
 [B]2.3.2[/B]
 1. Added a vertical/horizontal context menu switch.
 2. Widget handling improved.
