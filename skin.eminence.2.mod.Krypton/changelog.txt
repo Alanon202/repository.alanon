@@ -1,3 +1,9 @@
+[B]2.3.4[/B]
+1. RightList fixes.
+2. Skin settings reorganisation.
+3. Fixes for the French translation.
+4. Significant Hub widget improvements.
+
 [B]2.3.3[/B]
 1. Updated a required add-on listing.
 2. Added a preliminary RightList view.
