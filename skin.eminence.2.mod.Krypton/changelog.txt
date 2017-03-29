@@ -1,3 +1,7 @@
+[B]2.3.6[/B]
+1. Added a duration setting for home widgets.
+2. Hub widget fixes.
+
 [B]2.3.5[/B]
 1. RightList tweaks.
 2. Flags tweaks.
