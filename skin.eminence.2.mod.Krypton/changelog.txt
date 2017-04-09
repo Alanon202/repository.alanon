@@ -1,3 +1,12 @@
+[B]2.3.7[/B]
+1. RSS animation tweaks.
+2. RightList artist thumbs fix.		
+3. LiveTV OSD fix.
+4. Flag fallbacks fixes.
+5. Added plot outline option.
+6. Alternate RightList for music tweak.
+7. RightList for video content.
+
 [B]2.3.6[/B]
 1. Added a duration setting for home widgets.
 2. Hub widget fixes.
