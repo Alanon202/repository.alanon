@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
     id="skin.eminence.2.mod.Krypton"
-    version="2.3.7"
+    version="2.3.8"
     name="Eminence 2.0 MOD"
     provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
     <requires>
@@ -34,6 +34,17 @@
  			<screenshot>extras/viewthumbs/159.jpg</screenshot>
 		</assets>	
 		<news> Changelog:
+		
+		[B]2.3.8[/B]
+		1. Context menu support for Library Editor Script.
+		2. Context menu support for SimplePlaylists.
+		3. PVR OSD fixes.
+		4. Darkened the dim option.
+		5. Random Backgrounds fix.
+		6. Scrollbar fixes.
+		7. Another attempt at RSS animation fix.
+		8. OSD Logo fix.
+		9. Poster Border fix.
 		
 		[B]2.3.7[/B]
 		1. RSS animation tweaks.
