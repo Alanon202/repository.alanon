@@ -36,4 +36,6 @@ The path you set in the skin settings is the root (pointing to the Artist folder
 
 14. Ctrl + N will bring up the extended "Now Playing" menu!
 
+15. To remove the home menu header, type in N/A as the custom text.
+
 Check the [Eminence 2 MOD thread](http://forum.kodi.tv/showthread.php?tid=307568) for more information and support.

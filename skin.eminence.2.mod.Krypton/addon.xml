@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
     id="skin.eminence.2.mod.Krypton"
-    version="2.3.8"
+    version="2.3.9"
     name="Eminence 2.0 MOD"
     provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
     <requires>
@@ -34,6 +34,19 @@
  			<screenshot>extras/viewthumbs/159.jpg</screenshot>
 		</assets>	
 		<news> Changelog:
+
+		[B]2.3.9[/B]
+		1. Busy Dialog tweak.
+		2. Tweaked viewtypes conditions.
+		3. Fixed add-on loading artefacts.
+		4. Small log error fixes (syntax).
+		5. Home menu header is now hideable.
+		6. Fixed logo and flags bugs.
+		7. Video Info ratings tweak.
+		8. Video Info darken effect.
+		9. QuickNav tweak.
+		10. Subtitle Sync tweak.
+		11. Added Hebrew translation (scofield272)!
 		
 		[B]2.3.8[/B]
 		1. Context menu support for Library Editor Script.

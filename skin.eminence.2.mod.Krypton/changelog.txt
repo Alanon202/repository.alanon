@@ -1,3 +1,27 @@
+[B]2.3.9[/B]
+1. Busy Dialog tweak.
+2. Tweaked viewtypes conditions.
+3. Fixed add-on loading artefacts.
+4. Small log error fixes (syntax).
+5. Home menu header is now hideable.
+6. Fixed logo and flags bugs.
+7. Video Info ratings tweak.
+8. Video Info darken effect.
+9. QuickNav tweak.
+10. Subtitle Sync tweak.
+11. Added Hebrew translation (scofield272)!
+
+[B]2.3.8[/B]
+1. Context menu support for Library Editor Script.
+2. Context menu support for SimplePlaylists.
+3. PVR OSD fixes.
+4. Darkened the dim option.
+5. Random Backgrounds fix.
+6. Scrollbar fixes.
+7. Another attempt at RSS animation fix.
+8. OSD Logo fix.
+9. Poster Border fix.
+
 [B]2.3.7[/B]
 1. RSS animation tweaks.
 2. RightList artist thumbs fix.		
