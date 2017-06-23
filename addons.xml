@@ -26,14 +26,14 @@
 
 <addon
     id="skin.eminence.2.mod.Krypton"
-    version="2.3.9.1"
+    version="2.4"
     name="Eminence 2.0 MOD"
     provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
     <requires>
         <import addon="xbmc.gui" version="5.12.0"/>
-        <import addon="script.skinshortcuts" version="1.0.16"/>
-        <import addon="script.skin.helper.service" version="1.1.9"/>
-		<import addon="script.skin.helper.widgets" version="1.0.20"/>
+        <import addon="script.skinshortcuts" version="1.0.17"/>
+        <import addon="script.skin.helper.service" version="1.1.16"/>
+		<import addon="script.skin.helper.widgets" version="1.0.28"/>
 		<import addon="script.skin.helper.colorpicker" version="1.0.12"/>
         <import addon="script.extendedinfo" version="5.0.0"/>
         <import addon="script.image.resource.select" version="0.0.5"/>
@@ -59,6 +59,25 @@
  			<screenshot>extras/viewthumbs/159.jpg</screenshot>
 		</assets>
 		<news> Changelog:
+
+		[B]2.4[/B]
+		1. Further viewtype fixes.
+		2. Music artwork overhaul.
+		3. Add-on Info dialogue tweaks.
+		4. Light theme info fix.
+		5. Light theme busy dialogue tweak.
+		6. Set Icon fix.
+		7. Added manfeed's Videolyrics Plus.
+		8. Showcase tweaks.
+		9. Tweaked playlist background options.
+		10. Added Low List view.
+		11. Rotation label bugfix.
+		12. Support for Artwork Beef add-on.
+		13. Skin Backup workaround.
+		14. French translation overhaul (by Kelexel)
+		15. Light theme dark interface tweaks.
+		16. Info and flags redundancy fixes.
+		17. Caching OSD fix.
 
 		[B]2.3.9.1[/B]
 		1. Add-on browsing quick-fix.

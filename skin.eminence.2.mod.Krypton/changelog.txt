@@ -1,3 +1,22 @@
+[B]2.4[/B]
+1. Further viewtype fixes.
+2. Music artwork overhaul.
+3. Add-on Info dialogue tweaks.
+4. Light theme info fix.
+5. Light theme busy dialogue tweak.
+6. Set Icon fix.
+7. Added manfeed's Videolyrics Plus.
+8. Showcase tweaks.
+9. Tweaked playlist background options.
+10. Added Low List view.
+11. Rotation label bugfix.
+12. Support for Artwork Beef add-on.
+13. Skin Backup workaround.
+14. French translation overhaul (by Kelexel)
+15. Light theme dark interface tweaks.
+16. Info and flags redundancy fixes.
+17. Caching OSD fix.
+
 [B]2.3.9.1[/B]
 1. Add-on browsing quick-fix.
 
