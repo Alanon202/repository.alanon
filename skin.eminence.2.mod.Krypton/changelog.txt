@@ -1,3 +1,10 @@
+[B]2.4.3[/B]
+1. Showcase tweak.
+2. RSS Editor dialogue.
+3. Flags tweak.
+4. Artwork Beef tweak.
+5. Widget background setting.
+
 [B]2.4.2[/B]
 1. Huge viewtype overhaul.
 2. Showcase fix.
