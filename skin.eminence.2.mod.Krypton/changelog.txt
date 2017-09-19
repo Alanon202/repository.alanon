@@ -1,3 +1,10 @@
+[B]2.4.3.4[/B]
+1. Hebrew translation update and bugfix.
+
+[B]2.4.3.3[/B]
+1. Next Aired fixes.
+2. Another PVR attempt.
+		
 [B]2.4.3.2[/B]
 1. Updated translations.
 2. Potential PVR fix.
