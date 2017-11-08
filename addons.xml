@@ -26,14 +26,14 @@
 
 <addon
     id="skin.eminence.2.mod.Krypton"
-    version="2.4.3.4"
+    version="2.4.4"
     name="Eminence 2.0 MOD"
     provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
     <requires>
         <import addon="xbmc.gui" version="5.12.0"/>
-        <import addon="script.skinshortcuts" version="1.0.17"/>
-        <import addon="script.skin.helper.service" version="1.1.20"/>
-		<import addon="script.skin.helper.widgets" version="1.0.29"/>
+        <import addon="script.skinshortcuts" version="1.0.18"/>
+        <import addon="script.skin.helper.service" version="1.1.23"/>
+		<import addon="script.skin.helper.widgets" version="1.0.36"/>
 		<import addon="script.skin.helper.colorpicker" version="1.0.12"/>
         <import addon="script.extendedinfo" version="5.0.0"/>
         <import addon="script.image.resource.select" version="0.0.5"/>
@@ -60,8 +60,10 @@
 		</assets>
 		<news> Changelog:
 
-		[B]2.4.3.4[/B]
-		1. Hebrew translation update and bugfix.
+		[B]2.4.4[/B]
+		1. Two new viewtypes! (Credits go to ZERO ibis!)
+		2. Small bugfixes and improvements.
+		3. More Hebrew updates.
 
 		[B]2.4.3.3[/B]
 		1. Next Aired fixes.
