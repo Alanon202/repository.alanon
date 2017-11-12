@@ -26,7 +26,7 @@
 
 <addon
     id="skin.eminence.2.mod.Krypton"
-    version="2.4.4.1"
+    version="2.4.4.2"
     name="Eminence 2.0 MOD"
     provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
     <requires>
@@ -59,6 +59,9 @@
  			<screenshot>extras/viewthumbs/159.jpg</screenshot>
 		</assets>
 		<news> Changelog:
+
+		[B]2.4.4.2[/B]
+		1. Fanart fix.
 
 		[B]2.4.4.1[/B]
 		1. Dependancy fix.
