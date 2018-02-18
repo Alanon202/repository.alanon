@@ -26,7 +26,7 @@
 
 <addon
     id="skin.eminence.2.mod.Krypton"
-    version="2.4.5.1"
+    version="2.5"
     name="Eminence 2.0 MOD"
     provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
     <requires>
@@ -59,6 +59,26 @@
  			<screenshot>extras/viewthumbs/159.jpg</screenshot>
 		</assets>
 		<news> Changelog:
+
+		[B]2.5[/B]
+		1. Added a vertical home menu.
+		2. Added support for animated weather icons.
+		3. Added more info for PVR.
+		4. Header panel fixes.
+		5. Added a workaround for widget shortcuts loop.
+		6. Overhauled skin string dialogues.
+		7. View shade option for the new viewtype.
+		8. Added a hub layout switch setting.
+		9. Added a hub list and other layout styles.
+		10. Coloured flags support.
+		11. Fixes for the infolines.
+		12. Added a touch-optimised submenu (hopefully).
+		13. Edited PVR channel menu.
+		14. Various small fixes for PVR interfaces.
+		15. Small fixes for the Extended Info interface.
+		16. Removed Artwork Downloader link.
+		17. Added Artwork Beef to the add-ons list.
+
 
 		[B]2.4.5.1[/B]
 		1. Quick fix for fanart rotation.
