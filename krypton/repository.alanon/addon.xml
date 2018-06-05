@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addons>
+<addons>
     <addon id="repository.alanon" name="Alanon's Repo" version="1.0.2" provider-name="Alanon">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -10,13 +11,11 @@
 				<info compressed="true">https://github.com/Alanon202/repository.alanon/raw/master/krypton/addons.xml</info>
 				<checksum>https://github.com/Alanon202/repository.alanon/raw/master/krypton/addons.xml.md5</checksum>
 				<datadir zip="true">https://github.com/Alanon202/repository.alanon/raw/master/krypton</datadir>
-				<hashes>false</hashes>
 			</dir>
 			<dir minversion="17.9.0">
 				<info compressed="true">https://github.com/Alanon202/repository.alanon/raw/master/leia/addons.xml</info>
 				<checksum>https://github.com/Alanon202/repository.alanon/raw/master/leia/addons.xml.md5</checksum>
 				<datadir zip="true">https://github.com/Alanon202/repository.alanon/raw/master/leia</datadir>
-				<hashes>false</hashes>
 			</dir>
         </extension>
         <extension point="xbmc.addon.metadata">
@@ -33,5 +32,6 @@
 			- 1.0.2 Repo rework for Leia updates.</news>
 		</extension>
 	</addon>
+</addons>
 </addons>
 </addons>
