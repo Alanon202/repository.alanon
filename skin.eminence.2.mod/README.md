@@ -4,7 +4,7 @@ Authors: jurialmunkey - Mod by Guilouz - Mod by Alanon
 
 IMPORTANT SETUP TIPS / FAQ: 
 
-1. For now the changing the main meny type hard-crashes Leia! You have to change it inside settings.xml!
+1. For now changing the main meny type hard-crashes Leia! You have to change it inside settings.xml!
 
 2. Marcelveldt's BETA Repo is required for most of the skin dependencies. If you install it, the most necessary things for the skin to work should install automatically. If you encounter any errors, please try to download the dependencies manually, install them as zips, and then re-install the skin.
 
