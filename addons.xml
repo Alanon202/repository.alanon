@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="repository.alanon" name="Alanon's Repo" version="1.0.2" provider-name="Alanon">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="Alanon's Repo">
+	<addon id="repository.alanon" name="Alanon's Repo" version="1.0.2" provider-name="Alanon">
+		<requires>
+			<import addon="xbmc.addon" version="12.0.0"/>
+		</requires>
+		<extension point="xbmc.addon.repository" name="Alanon's Repo">
 			<dir minversion="17.0.0">
 				<info compressed="true">https://github.com/Alanon202/repository.alanon/raw/master/krypton/addons.xml</info>
 				<checksum>https://github.com/Alanon202/repository.alanon/raw/master/krypton/addons.xml.md5</checksum>
 				<datadir zip="true">https://github.com/Alanon202/repository.alanon/raw/master/krypton</datadir>
-				<hashes>true</hashes>
 			</dir>
 			<dir minversion="17.9.0">
 				<info compressed="true">https://github.com/Alanon202/repository.alanon/raw/master/leia/addons.xml</info>
 				<checksum>https://github.com/Alanon202/repository.alanon/raw/master/leia/addons.xml.md5</checksum>
 				<datadir zip="true">https://github.com/Alanon202/repository.alanon/raw/master/leia</datadir>
-				<hashes>true</hashes>
 			</dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Alanon's Kodi Repo</summary>
-            <description>Here you can find my Eminence 2 MOD.</description>
-            <platform>all</platform>
-            <assets>
- 			   <icon>resources/icon.png</icon>
- 			   <fanart>resources/fanart.jpg</fanart>
- 		    </assets>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Alanon's Kodi Repo</summary>
+			<description>Here you can find my Eminence 2 MOD.</description>
+			<platform>all</platform>
+			<assets>
+			   <icon>resources/icon.png</icon>
+			   <fanart>resources/fanart.jpg</fanart>
+			</assets>
 			<news>
 			- 1.0.0 Initial release.
-			- 1.0.1 Improved Git folder structure.</news>
+			- 1.0.1 Improved Git folder structure.
+			- 1.0.2 Repo rework for Leia updates.</news>
 		</extension>
 	</addon>
 
