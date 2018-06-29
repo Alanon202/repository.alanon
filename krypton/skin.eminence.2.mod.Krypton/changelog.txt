@@ -1,3 +1,15 @@
+[B]2.5.4[/B]	
+1. Fixed animated weather icons.
+2. Removed redundant setting.
+
+[B]2.5.3[/B]	
+1. Added season posters in views.
+2. Removed the source flag.
+3. Small subtitle window fix.
+4. PVR widget tweaks.
+5. Merged some requests from git.
+6. Background video fix (maybe!).
+
 [B]2.5.2[/B]	
 1. Fixed the NextUp fanart display.
 2. Simplified hub navigation.
