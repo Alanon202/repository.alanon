@@ -33,7 +33,7 @@
 
 <addon
     id="skin.eminence.2.mod"
-    version="3.0.1"
+    version="3.0.2"
     name="Eminence 2 MOD"
     provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
     <requires>
@@ -67,8 +67,10 @@
 		</assets>
 		<news> Changelog:
 
-		[B]3.0[/B]
-		1. First Leia version.
+		[B]3.0.2[/B]
+		1. Fixed weather animated icons.
+		2. Alphabet scrollbar fixes.
+		3. Reimplemented Netflix backend fonts.
 
 		[B]3.0.1[/B]
 		1. Small infoline corrections.
@@ -76,6 +78,9 @@
 		3. Bypass menu selection crash.
 		4. Replaced country flags.
 		5. Support for ExtendedInfo forks.
+
+		[B]3.0[/B]
+		1. First Leia version.
 		</news>
 	</extension>
 </addon>
