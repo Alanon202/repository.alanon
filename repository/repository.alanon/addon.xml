@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="repository.alanon" name="Alanon's Repo" version="1.0.3" provider-name="Alanon">
-	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
-	</requires>
 	<extension point="xbmc.addon.repository" name="Alanon's Repo">
-			<info compressed="true">https://github.com/Alanon202/repository.alanon/raw/master/repository/addons.xml</info>
-			<checksum>https://github.com/Alanon202/repository.alanon/raw/master/repository/addons.xml.md5</checksum>
+			<info compressed="true">https://raw.githubusercontent.com/Alanon202/repository.alanon/master/repository/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Alanon202/repository.alanon/master/repository/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/Alanon202/repository.alanon/raw/master/repository</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -24,4 +20,3 @@
 		- 1.0.3 Simplify repo.</news>
 	</extension>
 </addon>
-</addons>

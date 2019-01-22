@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
+<?xml version="1.0" encoding="UTF-8"?>
 <addon
     id="skin.eminence.2.mod"
     version="3.0.4"
@@ -34,14 +33,14 @@
  			<screenshot>extras/viewthumbs/506.jpg</screenshot>
  			<screenshot>extras/viewthumbs/52.jpg</screenshot>
  			<screenshot>extras/viewthumbs/159.jpg</screenshot>
-		</assets>
+		</assets>	
 		<news> Changelog:
-
+		
 		[B]3.0.4[/B]
 		1. Skin Shortcuts menu fix.
 		2. Minor widget fixes.
 		3. Dialog Busy tweak.
-
+		
 		[B]3.0.3[/B]
 		1. GUI bump.
 		2. Tweaked vertical menu layout and size.
@@ -50,22 +49,21 @@
 		5. Tweaked startup video.
 		6. Premiere date tweaks.
 		7. PVR Recordings fix.
-
+		
 		[B]3.0.2[/B]
 		1. Fixed weather animated icons.
 		2. Alphabet scrollbar fixes.
 		3. Reimplemented Netflix backend fonts.
-
+		
 		[B]3.0.1[/B]
 		1. Small infoline corrections.
 		2. Removed a redundant setting.
 		3. Bypass menu selection crash.
 		4. Replaced country flags.
-		5. Support for ExtendedInfo forks.
-
+		5. Support for ExtendedInfo forks.		
+		
 		[B]3.0[/B]
 		1. First Leia version.
 		</news>
 	</extension>
 </addon>
-</addons>
